@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "preinstall": "npm install ./lib/foo",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,5 @@
   },
   "homepage": "https://github.com/TSkoll/npm-issue-test-setup#readme",
   "dependencies": {
-    "foo": "file:lib/foo"
   }
 }
